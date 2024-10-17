@@ -1,5 +1,5 @@
 from flask import Flask
-from src.routing.user import user_bp
+from src.routes.user import user_bp
 
 app = Flask(__name__)
 
